@@ -34,6 +34,12 @@ module.exports = {
       accounts: [PRIVATE_KEY],
       url: SEPOLIA_RPC_URL,
       blockConfirmations: 3
+    },
+
+    mumbai: {
+      chainId: 80001,
+      accounts: [PRIVATE_KEY],
+      url: process.env.MUMBAI_RPC_URL
     }
   },
 
